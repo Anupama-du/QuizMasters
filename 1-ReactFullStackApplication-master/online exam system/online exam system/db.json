@@ -1,0 +1,451 @@
+{
+  "admin": [
+    {
+      "admin_name": "admin",
+      "admin_password": "4321"
+    }
+  ],
+  "subject": [
+    {
+      "subject_name": "Maths",
+      "id": 1
+    },
+    {
+      "subject_name": "java",
+      "id": 2
+    },
+    {
+      "subject_name": "dbms",
+      "id": 3
+    },
+    {
+      "subject_name": "os",
+      "id": 4
+    }
+  ],
+  "Exam": [
+    {
+      "id": 1,
+      "exam_name": "Maths",
+      "exam_desc": "This is Math Exam",
+      "exam_date": "17-9-2021 17:49:39",
+      "exam_marks": "5",
+      "exam_totalQuestion": "5",
+      "exam_passMarks": "3",
+      "exam_level": "Easy"
+    },
+    {
+      "exam_name": "java",
+      "exam_desc": "java exam",
+      "exam_level": "easy",
+      "exam_passMarks": "3",
+      "exam_totalQuestion": "5",
+      "exam_marks": "5",
+      "exam_date": "29-11-2023 23:5:34",
+      "id": 2
+    },
+    {
+      "exam_name": "dbms",
+      "exam_desc": "this is database management system exam.",
+      "exam_level": "easy",
+      "exam_passMarks": "2",
+      "exam_totalQuestion": "4",
+      "exam_marks": "4",
+      "exam_date": "9-12-2023 12:0:31",
+      "id": 3
+    },
+    {
+      "exam_name": "os",
+      "exam_desc": "os",
+      "exam_level": "easy",
+      "exam_passMarks": "2",
+      "exam_totalQuestion": "3",
+      "exam_marks": "6",
+      "exam_date": "9-12-2023 12:32:15",
+      "id": 4
+    }
+  ],
+  "Question": [
+    {
+      "id": 1,
+      "question_name": "10-5 ?",
+      "option_one": "3",
+      "option_two": "1",
+      "option_three": "2",
+      "option_four": "5",
+      "question_answer": "5",
+      "exam_id": 1,
+      "subject_name": "Maths"
+    },
+    {
+      "id": 2,
+      "question_name": "10+5 ?",
+      "option_one": "3",
+      "option_two": "1",
+      "option_three": "4",
+      "option_four": "15",
+      "question_answer": "15",
+      "exam_id": 1,
+      "subject_name": "Maths"
+    },
+    {
+      "question_name": "10*5",
+      "option_one": "10",
+      "option_two": "5",
+      "option_three": "50",
+      "option_four": "2",
+      "question_answer": "50",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 3
+    },
+    {
+      "question_name": "110-10 ?",
+      "option_one": "110",
+      "option_two": "100",
+      "option_three": "10",
+      "option_four": "1",
+      "question_answer": "100",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 4
+    },
+    {
+      "question_name": "10/2 = ?",
+      "option_one": "1",
+      "option_two": "5",
+      "option_three": "10",
+      "option_four": "7",
+      "question_answer": "5",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 5
+    },
+    {
+      "question_name": "Number of primitive data types in Java are?",
+      "option_one": "6",
+      "option_two": "7",
+      "option_three": "8",
+      "option_four": "9",
+      "question_answer": "8",
+      "exam_id": "2",
+      "subject_name": "java",
+      "id": 6
+    },
+    {
+      "question_name": "What is the size of float and double in java?",
+      "option_one": "32 and 64",
+      "option_two": "32 and 32",
+      "option_three": "64 and 64",
+      "option_four": "none",
+      "question_answer": "32 and 64",
+      "exam_id": "2",
+      "subject_name": "java",
+      "id": 7
+    },
+    {
+      "question_name": "Automatic type conversion is possible in which of the possible cases?",
+      "option_one": "int to long",
+      "option_two": "byte to int",
+      "option_three": " long to int",
+      "option_four": "short to int",
+      "question_answer": "int to long",
+      "exam_id": "2",
+      "subject_name": "java",
+      "id": 8
+    },
+    {
+      "question_name": " Arrays in java are-",
+      "option_one": "object references",
+      "option_two": "object",
+      "option_three": "primitive datatypes",
+      "option_four": "none",
+      "question_answer": "object",
+      "exam_id": "2",
+      "subject_name": "java",
+      "id": 9
+    },
+    {
+      "question_name": "When is the object created with new keyword",
+      "option_one": "at run time",
+      "option_two": "at compile time",
+      "option_three": "depends on code",
+      "option_four": "all of the above",
+      "question_answer": "at run time",
+      "exam_id": "2",
+      "subject_name": "java",
+      "id": 10
+    },
+    {
+      "question_name": "which of the following is used for performing tasks like creating the structure of relations?",
+      "option_one": "DML",
+      "option_two": "query",
+      "option_three": "relational schema",
+      "option_four": "DDL",
+      "question_answer": "DDL",
+      "exam_id": "3",
+      "subject_name": "DBMS",
+      "id": 11
+    },
+    {
+      "question_name": "fullform of dbms ?",
+      "option_one": "database management system",
+      "option_two": "database manage system",
+      "option_three": "database management schema",
+      "option_four": "data management schema",
+      "question_answer": "database management system",
+      "exam_id": "3",
+      "subject_name": "DBMS",
+      "id": 12
+    },
+    {
+      "question_name": "what is DBMS?",
+      "option_one": "collection of queries",
+      "option_two": "high level language",
+      "option_three": "programming language",
+      "option_four": "store , modifies and retrieves data",
+      "question_answer": "store , modifies and retrieves data",
+      "exam_id": "3",
+      "subject_name": "DBMS",
+      "id": 13
+    },
+    {
+      "question_name": "who created DBMS?",
+      "option_one": "edgar frank",
+      "option_two": "charles",
+      "option_three": "charles bachman",
+      "option_four": "sharon B codd",
+      "question_answer": "charles bachman",
+      "exam_id": "3",
+      "subject_name": "DBMS",
+      "id": 14
+    },
+    {
+      "question_name": "which of the following is not an operating system?",
+      "option_one": "DOS",
+      "option_two": "oracle",
+      "option_three": "linux",
+      "option_four": "windows",
+      "question_answer": "oracle",
+      "exam_id": "4",
+      "subject_name": "os",
+      "id": 15
+    },
+    {
+      "question_name": " What is the maximum length of the filename in DOS?",
+      "option_one": "10",
+      "option_two": "12",
+      "option_three": "13",
+      "option_four": "8",
+      "question_answer": "8",
+      "exam_id": "4",
+      "subject_name": "os",
+      "id": 16
+    },
+    {
+      "question_name": "When was the first operating system developed?",
+      "option_one": "1900",
+      "option_two": "2000",
+      "option_three": "1950",
+      "option_four": "1999",
+      "question_answer": "1950",
+      "exam_id": "4",
+      "subject_name": "os",
+      "id": 17
+    }
+  ],
+  "Result": [
+    {
+      "id": 1,
+      "result_status": "Pass",
+      "result_score": "3",
+      "user_email": "ram@gmail.com",
+      "exam_date": "12-23-12",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5"
+    },
+    {
+      "id": 2,
+      "result_status": "Pass",
+      "result_score": "3",
+      "user_email": "ram@gmail.com",
+      "exam_date": "12-23-12",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5"
+    },
+    {
+      "id": 3,
+      "result_status": "Pass",
+      "result_score": "3",
+      "user_email": "shiv@gmail.com",
+      "exam_date": "12-23-12",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5"
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "ram@gmail.com",
+      "exam_date": "18-9-2021 20:49:39",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 4
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "vishnu@gmail.com",
+      "exam_date": "19-9-2021 15:11:27",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 5
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "agni@gmail.com",
+      "exam_date": "19-9-2021 15:20:37",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 6
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 5,
+      "user_email": "ram@gmail.com",
+      "exam_date": "29-11-2023 23:2:11",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 7
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "ram@gmail.com",
+      "exam_date": "29-11-2023 23:13:34",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 8
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "ram@gmail.com",
+      "exam_date": "9-12-2023 11:54:6",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 9
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "ishika@gmail.com",
+      "exam_date": "9-12-2023 11:58:37",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 10
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 2,
+      "user_email": "ishika@gmail.com",
+      "exam_date": "9-12-2023 12:20:7",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 11
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "ishika@gmail.com",
+      "exam_date": "9-12-2023 12:42:1",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "3",
+      "total_Question": "5",
+      "id": 12
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 1,
+      "user_email": "ishika@gmail.com",
+      "exam_date": "9-12-2023 12:43:29",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "3",
+      "total_Question": "5",
+      "id": 13
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "ishika@gmail.com",
+      "exam_date": "9-12-2023 12:50:51",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "5",
+      "total_Question": "5",
+      "id": 14
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "user_name": "ishika",
+      "user_email": "ishika@gmail.com",
+      "user_password": "ish@1234"
+    },
+    {
+      "id": 2,
+      "user_name": "shiv",
+      "user_email": "shiv@gmail.com",
+      "user_password": "1234"
+    },
+    {
+      "user_name": "Vishnu",
+      "user_email": "vishnu@gmail.com",
+      "user_password": "123",
+      "id": 3
+    },
+    {
+      "user_name": "Agni",
+      "user_email": "agni@gmail.com",
+      "user_password": "123",
+      "id": 4
+    },
+    {
+      "user_name": "isha thapliyal",
+      "user_email": "ishathapliyal@gmail.com",
+      "user_password": "ishathapliyal",
+      "id": 5
+    },
+    {
+      "user_name": "ish",
+      "user_email": "ish@gmail.com",
+      "user_password": "ish1234",
+      "id": 6
+    }
+  ]
+}
